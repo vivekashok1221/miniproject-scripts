@@ -3,7 +3,6 @@ name = "miniproject-scripts"
 version = "0.1.0"
 description = ""
 authors = ["vivekashok1221 <vivekashok1221@gmail.com>"]
-readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
