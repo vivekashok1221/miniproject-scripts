@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "miniproject-scripts"
+version = "0.1.0"
+description = ""
+authors = ["vivekashok1221 <vivekashok1221@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+matplotlib = "^3.8.3"
+nibabel = "^5.2.0"
+pydicom = "^2.4.4"
+
+
+[tool.poetry.group.dev.dependencies]
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
